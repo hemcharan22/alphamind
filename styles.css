@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+.topmenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+}
+
+li {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 50px;
+}
+
+h2{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+}
+
+h3{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 27.1472px;
+line-height: 34px;
+/* identical to box height */
+}
+
+.topmenuitems {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    letter-spacing: 0.01em;
+    padding-left:20px;
+}
+
+.home{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1270px;
+    margin: auto;
+    padding: 60px;
+}
+
+.left-home{
+    max-width: 500px;
+    padding-top: 50px;
+}
+
+.light-mulish {
+    font-weight:200;
+}
+
+button{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: whitesmoke;
+    padding: 20px 40px;
+    width: 296px;
+    height: 65px;
+    background: #5926ED;
+    border-radius: 60px;
+}
+
+.client-page{
+    margin:auto;
+    max-width: 1250px;
+}
+.explain-page{
+    display: flex;
+    align-content: center;
+    max-width: 1421px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.explain-right{
+    margin: 87px;
+}
+
+.services{
+    margin: auto;
+    max-width: 1350px;
+    padding-top:100px
+}
+
+.news-letter{
+    margin: auto;
+    max-width: 1250px;
+    padding-top: 100px
+}
+
+.fottter{
+    padding: 100px 385px;
+    /* padding-top: 300px; */
+    margin-top: 300px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-content: center; */
+}
