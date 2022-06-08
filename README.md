@@ -1,4 +1,4 @@
 
 
 ### Website Demo
-https://www.frontendbootcampdemo.com/
+https://hemcharan22.github.io/alphamind/
