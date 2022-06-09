@@ -21,13 +21,13 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Frontend Bootcamp</title>
+    <title>Mental health Therapist Online</title>
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
       <div class="container">
-        <a href="#" class="navbar-brand">Frontend Bootcamp</a>
+        <a href="#" class="navbar-brand">Mental health Therapist Online </a>
 
         <button
           class="navbar-toggler"
@@ -68,11 +68,11 @@
 
     <!-- Showcase -->
     <section
-      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start section-height "
     >
-      <div class="container">
-        <div class="d-sm-flex align-items-center justify-content-between">
-          <div>
+      <div class="container top100">
+        <div class="d-sm-flex align-items-center justify-content-between ">
+          <div class="hero-left">
             <h1> WE BELIEVE OUR CLIENTS PAY FOR  <span id="purple"> SOLUTION, NOT SESSION ! </span></h1>
             <p>
               <ul>
@@ -98,8 +98,8 @@
             </button>
           </div>
           <img
-            class="img-fluid w-50 d-none d-sm-block"
-            src="img/showcase.svg"
+            class="img-fluid w-50 d-none d-sm-block image2"
+            src="img/mainimg.jpg"
             alt=""
           />
         </div>
@@ -107,8 +107,8 @@
     </section>
 
     <!-- Newsletter -->
-    <section class="bg-light text-dark p-5">
-      <div class="container">
+    <section class="bg-light text-dark p-5 section-height">
+      <div class="container top100">
         <div class="d-md-flex justify-content-between align-items-center">
           <div class="w-50" px-5>
           <ul>
@@ -121,9 +121,9 @@
               overthinking and relationships issues. As an exemplary professional, she drives the
               best out of her clients with a solution focused approach.  
             </p>
-            <p>
+            <h6 class="mb-3">
               If you want to know whether we could be a good fit for each other.
-            </p>
+            </h6>
             <button
               class="btn btn-light"
               data-bs-toggle="modal"
@@ -136,17 +136,18 @@
           </ul>
         </div>
           
-          <div class="input-group news-input ps-5">
-            <input type="text" class="form-control" placeholder="Enter Email" />
-            <button class="btn btn-dark btn-lg" type="button">Submit</button>
-          </div>
+        <img
+        class="img-fluid w-50 d-none d-sm-block image2"
+        src="https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1610371122000/photosp/babc9c8f-db2f-44b3-9e89-4ee11e63a6fa/stock-photo-portrait-office-building-girl-woman-papers-student-boss-documentary-manager-babc9c8f-db2f-44b3-9e89-4ee11e63a6fa.jpg"
+        alt=""
+      />
         </div>
       </div>
     </section>
 
     <!-- Boxes -->
     <section class="p-5">
-      <div class="container920">
+      <div class="container920 top100  bottom100">
         <h2 class="center-text"> what we offer</h2>
         <div class="row text-center g-4">
           <div class="col-sm">
@@ -235,7 +236,7 @@
     <!-- Learn Sections -->
 
     <section id="learn" class="p-5 bg-dark text-light">
-      <div class="container">
+      <div class="container top100 bottom100">
         <div class="row align-items-center justify-content-between">
           <div class="col-md p-5">
             <h3>Here’s to her success stories!!</h3>
@@ -284,7 +285,7 @@
 
     <!-- Question Accordion -->
     <section id="questions" class="p-5">
-      <div class="container">
+      <div class="container top100  bottom100 ">
         <h2 class="text-center mb-4">Frequently Asked Questions</h2>
         <div class="accordion accordion" id="questions">
           <!-- Item 1 -->
@@ -436,7 +437,7 @@
     </section>
 
     <section id="instructors" class="p-5 bg-primary">
-      <div class="container">
+      <div class="container top100  bottom100">
         <h2 class="text-center text-white">Our Instructors</h2>
         <p class="lead text-center text-white mb-5">
           Our instructors all have 5+ years working as a web developer in the
@@ -532,7 +533,7 @@
 
     <!-- Contact & Map -->
     <section class="p-5">
-      <div class="container">
+      <div class="container top100  bottom100">
         <div class="row g-4">
           <div class="col-md">
             <h2 class="text-center mb-4">Contact Info</h2>
@@ -614,6 +615,39 @@
                 <label for="phone" class="col-form-label">Phone:</label>
                 <input type="tel" class="form-control" id="phone" />
               </div>
+              
+              <p> Booking this free appointment for: </p>
+              <div class="form-check ms-4">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Solution Focused package 
+                </label>
+              </div>
+              <div class="form-check ms-4">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Unlimited Session Duration
+                </label>
+              </div>
+              <div class="form-check ms-4">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Progress guaranteed else FULL Refund
+                </label>
+              </div>
+              <div class="form-check ms-4">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Premium Counselling Services
+                </label>
+              </div>
+              <div class="form-check ms-4">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                  Lifetime Validity
+                </label>
+              </div>
+            
             </form>
           </div>
           <div class="modal-footer">
