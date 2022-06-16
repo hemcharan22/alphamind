@@ -11,14 +11,9 @@
       crossorigin="anonymous"
     />
     <script src="https://kit.fontawesome.com/082459f995.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
-    />
-    <link
-      href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
-      rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
     <title>Mental health Therapist Online</title>
@@ -55,17 +50,15 @@
             <li class="nav-item">
               <a href="#instructors" class="nav-link">Blog</a>
             </li>
-          </ul>
-        
-          <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
-            <i class="fa fa-whatsapp my-float"></i>
-            </a>
-          
-        
+          </ul>        
         </div>
       </div>
     </nav>
 
+    <!-- whatsapp -->
+    <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+      <i class="fa fa-whatsapp my-float"></i>
+    </a>
     <!-- Showcase -->
     <section
       class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start section-height "
@@ -97,8 +90,8 @@
               Book an appointment
             </button>
           </div>
-          <img
-            class="img-fluid w-50 d-none d-sm-block image2"
+          <img 
+            class="img-fluid w-50 d-none d-lg-block image2"
             src="img/mainimg.jpg"
             alt=""
           />
@@ -109,8 +102,8 @@
     <!-- Newsletter -->
     <section class="bg-light text-dark p-5 section-height">
       <div class="container top100">
-        <div class="d-md-flex justify-content-between align-items-center">
-          <div class="w-50" px-5>
+        <div class="d-flex row align-items-center justify-content-between">
+          <div class="col-lg  p-5" >
           <ul>
             <h4 class="mb-0 mb-md-0">Meet our top experienced psychologist</h4>
             <h4 class="mb-0 mb-md-0">online: shritica joshi</h4>
@@ -137,7 +130,7 @@
         </div>
           
         <img
-        class="img-fluid w-50 d-none d-sm-block image2"
+        class="col-lg p-5 img-fluid w-50 d-none d-lg-block image2"
         src="https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1610371122000/photosp/babc9c8f-db2f-44b3-9e89-4ee11e63a6fa/stock-photo-portrait-office-building-girl-woman-papers-student-boss-documentary-manager-babc9c8f-db2f-44b3-9e89-4ee11e63a6fa.jpg"
         alt=""
       />
@@ -150,7 +143,7 @@
       <div class="container920 top100  bottom100">
         <h2 class="center-text"> what we offer</h2>
         <div class="row text-center g-4">
-          <div class="col-sm">
+          <div class="col-sm card-width">
             <div class="card text-dark rounded12">
               <div class="card-body text-center ">
                 <div class="h1 mb-3">
@@ -165,7 +158,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md">
+
+          <div class="col-md card-width">
             <div class="card text-dark rounded12">
               <div class="card-body text-center">
                 <div class="h1 mb-3">
@@ -180,7 +174,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md">
+          <div class="col-md card-width">
             <div class="card text-dark rounded12">
               <div class="card-body text-center">
                 <div class="h1 mb-3">
@@ -198,7 +192,7 @@
         </div>
         <div class="container620">
         <div class="row text-center g-4">
-          <div class="col-sm">
+          <div class="col-sm card-width">
             <div class="card text-dark rounded12">
               <div class="card-body text-center">
                 <div class="h1 mb-3">
@@ -213,7 +207,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md">
+          <div class="col-md card-width">
             <div class="card text-dark rounded12">
               <div class="card-body text-center">
                 <div class="h1 mb-3">
@@ -237,8 +231,8 @@
 
     <section id="learn" class="p-5 bg-dark text-light">
       <div class="container top100 bottom100">
-        <div class="row align-items-center justify-content-between">
-          <div class="col-md p-5">
+        <div class=" d-flex row align-items-center justify-content-between">
+          <div class="col-lg p-5" >
             <h4>Here’s to her success stories!!</h4>
             <p>
               <ul>
@@ -276,8 +270,8 @@
             
             
           </div>
-          <div class="col-md">
-            <img src="img/react.svg" class="img-fluid" alt="" />
+          <div class="col-lg ">
+            <img  src="img/sucessimg.jpeg" style="border-radius: 15px;" class="img-fluid" alt="" />
           </div>
         </div>
       </div>
@@ -436,144 +430,382 @@
       </div>
     </section>
 
-    <section id="instructors" class="p-5 bg-primary">
-      <div class="container top100  bottom100">
-        <h2 class="text-center text-white">Our Instructors</h2>
-        <p class="lead text-center text-white mb-5">
-          Our instructors all have 5+ years working as a web developer in the
-          industry  
-        </p>
-        <div class="row g-4">
-          <div class="col-md-6 col-lg-3">
-            <div class="card bg-light">
-              <div class="card-body text-center">
-                <img
-                  src="https://randomuser.me/api/portraits/men/11.jpg"
-                  class="rounded-circle mb-3"
-                  alt=""
-                />
-                <h3 class="card-title mb-3">John Doe</h3>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                </p>
-                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+    <section id="testimonials">
+      <!--heading--->
+      <div class="testimonial-heading">
+        <span>Comments</span>
+        <h4 class="purple">Clients Says</h4>
+      </div>
+      <!--testimonials-box-container------>
+      <div class="testimonial-box-container">
+        <!--BOX-1-------------->
+        <div class="testimonial-box">
+          <!--top------------------------->
+          <div class="box-top">
+            <!--profile----->
+            <div class="profile">
+              <!--img---->
+              <div class="profile-img">
+                <img src="https://cdn3.iconfinder.com/data/icons/avatars-15/64/_Ninja-2-512.png" />
               </div>
+              <!--name-and-username-->
+              <div class="name-user">
+                <strong>Liam mendes</strong>
+                <span>@liammendes</span>
+              </div>
+            </div>
+            <!--reviews------>
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <!--Empty star-->
             </div>
           </div>
-
-          <div class="col-md-6 col-lg-3">
-            <div class="card bg-light">
-              <div class="card-body text-center">
-                <img
-                  src="https://randomuser.me/api/portraits/women/11.jpg"
-                  class="rounded-circle mb-3"
-                  alt=""
-                />
-                <h3 class="card-title mb-3">Jane Doe</h3>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                </p>
-                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+          <!--Comments---------------------------------------->
+          <div class="client-comment">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+          </div>
+        </div>
+        <!--BOX-2-------------->
+        <div class="testimonial-box">
+          <!--top------------------------->
+          <div class="box-top">
+            <!--profile----->
+            <div class="profile">
+              <!--img---->
+              <div class="profile-img">
+                <img src="https://cdn3.iconfinder.com/data/icons/avatars-15/64/_Ninja-2-512.png" />
               </div>
+              <!--name-and-username-->
+              <div class="name-user">
+                <strong>Noah Wood</strong>
+                <span>@noahwood</span>
+              </div>
+            </div>
+            <!--reviews------>
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <!--Empty star-->
             </div>
           </div>
-
-          <div class="col-md-6 col-lg-3">
-            <div class="card bg-light">
-              <div class="card-body text-center">
-                <img
-                  src="https://randomuser.me/api/portraits/men/12.jpg"
-                  class="rounded-circle mb-3"
-                  alt=""
-                />
-                <h3 class="card-title mb-3">Steve Smith</h3>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                </p>
-                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+          <!--Comments---------------------------------------->
+          <div class="client-comment">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+          </div>
+        </div>
+        <!--BOX-3-------------->
+        <div class="testimonial-box">
+          <!--top------------------------->
+          <div class="box-top">
+            <!--profile----->
+            <div class="profile">
+              <!--img---->
+              <div class="profile-img">
+                <img src="https://cdn3.iconfinder.com/data/icons/avatars-15/64/_Ninja-2-512.png" />
               </div>
+              <!--name-and-username-->
+              <div class="name-user">
+                <strong>Oliver Queen</strong>
+                <span>@oliverqueen</span>
+              </div>
+            </div>
+            <!--reviews------>
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <!--Empty star-->
             </div>
           </div>
-
-          <div class="col-md-6 col-lg-3">
-            <div class="card bg-light">
-              <div class="card-body text-center">
-                <img
-                  src="https://randomuser.me/api/portraits/women/12.jpg"
-                  class="rounded-circle mb-3"
-                  alt=""
-                />
-                <h3 class="card-title mb-3">Sara Smith</h3>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
-                </p>
-                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+          <!--Comments---------------------------------------->
+          <div class="client-comment">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+          </div>
+        </div>
+        <!--BOX-4-------------->
+        <div class="testimonial-box">
+          <!--top------------------------->
+          <div class="box-top">
+            <!--profile----->
+            <div class="profile">
+              <!--img---->
+              <div class="profile-img">
+                <img src="https://cdn3.iconfinder.com/data/icons/avatars-15/64/_Ninja-2-512.png" />
+              </div>
+              <!--name-and-username-->
+              <div class="name-user">
+                <strong>Barry Allen</strong>
+                <span>@barryallen</span>
               </div>
             </div>
+            <!--reviews------>
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <!--Empty star-->
+            </div>
+          </div>
+          <!--Comments---------------------------------------->
+          <div class="client-comment">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+          </div>
+        </div>
+         <!--BOX-5-------------->
+         <div class="testimonial-box">
+          <!--top------------------------->
+          <div class="box-top">
+            <!--profile----->
+            <div class="profile">
+              <!--img---->
+              <div class="profile-img">
+                <img src="https://cdn3.iconfinder.com/data/icons/avatars-15/64/_Ninja-2-512.png" />
+              </div>
+              <!--name-and-username-->
+              <div class="name-user">
+                <strong>Barry Allen</strong>
+                <span>@barryallen</span>
+              </div>
+            </div>
+            <!--reviews------>
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <!--Empty star-->
+            </div>
+          </div>
+          <!--Comments---------------------------------------->
+          <div class="client-comment">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+          </div>
+        </div>
+         <!--BOX-6-------------->
+         <div class="testimonial-box">
+          <!--top------------------------->
+          <div class="box-top">
+            <!--profile----->
+            <div class="profile">
+              <!--img---->
+              <div class="profile-img">
+                <img src="https://cdn3.iconfinder.com/data/icons/avatars-15/64/_Ninja-2-512.png" />
+              </div>
+              <!--name-and-username-->
+              <div class="name-user">
+                <strong>Barry Allen</strong>
+                <span>@barryallen</span>
+              </div>
+            </div>
+            <!--reviews------>
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <!--Empty star-->
+            </div>
+          </div>
+          <!--Comments---------------------------------------->
+          <div class="client-comment">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
           </div>
         </div>
       </div>
     </section>
-
     <!-- Contact & Map -->
     <section class="p-5">
-      <div class="container top100  bottom100">
-        <div class="row g-4">
-          <div class="col-md">
-            <h2 class="text-center mb-4">Contact Info</h2>
-            <ul class="list-group list-group-flush lead">
-              <li class="list-group-item">
-                <span class="fw-bold">Main Location:</span> 50 Main st Boston MA
-              </li>
-              <li class="list-group-item">
-                <span class="fw-bold">Enrollment Phone:</span> (555) 555-5555
-              </li>
-              <li class="list-group-item">
-                <span class="fw-bold">Student Phone:</span> (333) 333-3333
-              </li>
-              <li class="list-group-item">
-                <span class="fw-bold">Enrollment Email:</span> (555)
-                enroll@frontendbc.test
-              </li>
-              <li class="list-group-item">
-                <span class="fw-bold">Student Email:</span>
-                student@frontendbc.test
-              </li>
-            </ul>
+      <div class=" container top100  bottom100">
+
+        <h2 class="text-center mb-3 purple">ALPHAMIND MENTAL HEALTH SERVICES</h2>
+        <p class="text-center pb-5 mb-5">We look forward to your service. Use the following methods to connect with us</p>
+  
+        <div class=" d-flex justify-content-around" style="max-width:1140px; margin:auto">
+  
+          <div class=" d-inline-flex flex-column justify-content-around">
+            
+              <div class="shadow p-3 m-3 bg-white rounded15 d-none d-md-block" >
+                  <h6 class="text-center mb-4 purple"> <i class="fa-solid fa-location-dot"> </i> Our Address</h6>
+                  <p class="text-center"> Registered Office: 94, RFC Colony, Vaishali Nagar, Jaipur. 302021 Branch II: Plot 137-138, Sector 78, Part II, Vijay Nagar, Indore. </p>
+              </div>
+              <div class="d-none d-md-block"> 
+                <div class="d-flex m-3 justify-content-around " >
+                  <div class="m-3 d-flex flex-column justify-content-center align-items-center shadow p-3 mb-5 bg-white rounded15">
+                      <h6 class="text-center mb-4 purple"> <i class="fa-solid fa-envelope"></i> Email us</h6>
+                      <p class="text-center">alphamindmhs<br>@gmail.com</p>
+                  </div>
+                  <div class="  m-3 d-flex flex-column justify-content-center align-items-center shadow shadow p-3 mb-5 bg-white rounded15">
+                      <h6 class="text-center mb-4 purple" ><i class="fa-solid fa-phone"></i>  Call us</h6>
+                      <p class="text-center">+91- 8306663557, 8306663558, 8527344792</p>
+                  </div>
+                </div>
+              </div>
           </div>
-          <div class="col-md">
-            <div id="map"></div>
+  
+          <div >
+            <div class="d-none d-md-block"> 
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56921.72236104518!2d75.66886215820314!3d26.915944400000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db3eb33c10d77%3A0x1c060990bed38cb0!2sAlphaMind%20Mental%20Health%20Services!5e0!3m2!1sen!2sus!4v1655018923443!5m2!1sen!2sus"  height="450" width="550" style="border-radius: 25px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
           </div>
+
         </div>
-      </div>
+
+          <div class="" style="max-width:1140px; margin:auto">
+  
+            <div class="d-md-none">
+              
+                <div class="shadow p-3 m-3 bg-white rounded15 " >
+                    <h6 class="text-center mb-4 purple"> <i class="fa-solid fa-location-dot"> </i> Our Address</h6>
+                    <p class="text-center"> Registered Office: 94, RFC Colony, Vaishali Nagar, Jaipur. 302021 Branch II: Plot 137-138, Sector 78, Part II, Vijay Nagar, Indore. </p>
+                </div>
+    
+                <div class="d-md-none" >
+                    <div class="m-3 d-flex flex-column justify-content-center align-items-center shadow p-3 mb-5 bg-white rounded15">
+                        <h6 class="text-center mb-4 purple"> <i class="fa-solid fa-envelope"></i> Email us</h6>
+                        <p class="text-center">alphamindmhs<br>@gmail.com</p>
+                    </div>
+                    <div class="  m-3 d-flex flex-column justify-content-center align-items-center shadow shadow p-3 mb-5 bg-white rounded15">
+                        <h6 class="text-center mb-4 purple" ><i class="fa-solid fa-phone"></i>  Call us</h6>
+                        <p class="text-center">+91- 8306663557, 8306663558, 8527344792</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div >
+              <div class="d-md-none"> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56921.72236104518!2d75.66886215820314!3d26.915944400000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db3eb33c10d77%3A0x1c060990bed38cb0!2sAlphaMind%20Mental%20Health%20Services!5e0!3m2!1sen!2sus!4v1655018923443!5m2!1sen!2sus"  height="450" width="100%" style="border-radius: 25px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
+            </div>
+        
+ 
+      
     </section>
 
     <!-- Footer -->
-    <footer class="p-5 bg-dark text-white text-center position-relative">
+    <footer class="main-footer">
       <div class="container">
-        <p class="lead">Copyright &copy; 2021 Frontend Bootcamp</p>
-
-        <a href="#" class="position-absolute bottom-0 end-0 p-5">
-          <i class="bi bi-arrow-up-circle h1"></i>
-        </a>
+          <!--Widgets Section-->
+          <div class="widgets-section">
+              <div class="row clearfix">
+                  
+                  <!--Column-->
+                  <div class="big-column col-lg-6 col-md-12 col-sm-12">
+                      <div class="row clearfix">
+                      
+                          <!--Footer Column-->
+                          <div class="footer-column col-lg-7 col-md-6 col-sm-12">
+                              <div class="footer-widget about-widget">
+                                  <div class="logo">
+                                      <a href="#"><img src="https://i.ibb.co/wBkDzLb/ak-logo-red-blue.png" alt="" /></a>
+                                  </div>
+                                  <div class="text">
+                                      <p>Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam.</p>
+                                      <p>Quis nostrud exercitation ullam aboris nisi aliquip exea commodo consequat duis aute irure.</p>
+                                  </div>
+                              </div>
+                          </div>
+                          
+                          <!--Footer Column-->
+                          <div class="footer-column col-lg-5 col-md-6 col-sm-12">
+                              <div class="footer-widget links-widget">
+                                  <h2>Quick Links</h2>
+                                  <ul class="footer-list">
+                                      <li><a href="#">Company History</a></li>
+                                      <li><a href="#">About Us</a></li>
+                                      <li><a href="#">Contact Us</a></li>
+                                      <li><a href="#">Services</a></li>
+                                      <li><a href="#">Privacy Policy</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                          
+                      </div>
+                  </div>
+                  
+                   <!--Column-->
+                  <div class="big-column col-lg-6 col-md-12 col-sm-12">
+                      <div class="row clearfix">
+                      
+                          <!--Footer Column-->
+                          <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                              <div class="footer-widget gallery-widget">
+                                  <h2>Gallery</h2>
+                                  <div class="widget-content">
+                                      <div class="http://t.commonsupport.com/morris/images-outer clearfix">
+                                          <!--Image Box-->
+                                          <figure class="image-box"><a href="#" class="lightbox-image" data-fancybox="footer-gallery" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="https://i.ibb.co/CKNmhMX/blog1.jpg" alt=""></a></figure>
+                                          <!--Image Box-->
+                                          <figure class="image-box"><a href="#" class="lightbox-image" data-fancybox="footer-gallery" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="https://i.ibb.co/m5yGbdR/blog2.jpg" alt=""></a></figure>
+                                          <!--Image Box-->
+                                          <figure class="image-box"><a href="#" class="lightbox-image" data-fancybox="footer-gallery" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="https://i.ibb.co/CKNmhMX/blog1.jpg" alt=""></a></figure>
+                                          <!--Image Box-->
+                                          <figure class="image-box"><a href="#" class="lightbox-image" data-fancybox="footer-gallery" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="https://i.ibb.co/m5yGbdR/blog2.jpg" alt=""></a></figure>
+                                          <!--Image Box-->
+                                          <figure class="image-box"><a href="#" class="lightbox-image" data-fancybox="footer-gallery" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="https://i.ibb.co/CKNmhMX/blog1.jpg" alt=""></a></figure>
+                                          <!--Image Box-->
+                                          <figure class="image-box"><a href="#" class="lightbox-image" data-fancybox="footer-gallery" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="https://i.ibb.co/m5yGbdR/blog2.jpg" alt=""></a></figure>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          
+                          <!--Footer Column-->
+                          <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                              <div class="footer-widget info-widget">
+                                  <h2>Contact Info</h2>
+                                  <ul class="info-list">
+                                      <li>Flat 20, Reynolds Neck, North Hele naville, FV77 8WS</li>
+                                      <li>+2(305) 587-3407</li>
+                                      <li>info@morris.com</li>
+                                  </ul>
+                                  <!-- Social Links -->
+                                  <ul class="social-links">
+                                      <li class="google"><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
+                                      <li class="facebook"><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                      <li class="instagram"><a href="#"><span class="fab fa-instagram"></span></a></li>
+                                      <li class="twitter"><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                          
+                      </div>
+                  </div>
+                  
+              </div>
+          </div>
       </div>
-    </footer>
+  
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+          <div class="container">
+              <div class="row clearfix">
+                  
+                  <div class="column col-lg-6 col-md-12 col-sm-12">
+                      <div class="copyright"><span class="theme_color">Ak Web Designer</span> &copy; 2019 All Right Reserved</div>
+                  </div>
+                  <div class="column col-lg-6 col-md-12 col-sm-12">
+                      <ul class="footer-nav">
+                          <li><a href="#">Terms of Service</a></li>
+                          <li><a href="#">Privacy Policy</a></li>
+                      </ul>
+                  </div>
+                  
+              </div>
+          </div>
+      </div>
+  
+  </footer>
 
     <!-- Modal -->
     <div
@@ -670,16 +902,5 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
-
-    <script>
-      mapboxgl.accessToken =
-        'pk.eyJ1IjoiYnRyYXZlcnN5IiwiYSI6ImNrbmh0dXF1NzBtbnMyb3MzcTBpaG10eXcifQ.h5ZyYCglnMdOLAGGiL1Auw'
-      var map = new mapboxgl.Map({
-        container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v11',
-        center: [-71.060982, 42.35725],
-        zoom: 18,
-      })
-    </script>
   </body>
 </html>
