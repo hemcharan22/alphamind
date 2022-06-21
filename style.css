@@ -77,6 +77,15 @@ h6{
   z-index:100;
 }
 
+.navbar-brand{
+  color:#ad90ff !important;
+  font-size:1.75rem;
+}
+
+.nav-link{
+  color:#ffffff !important;
+}
+
 .my-float{
 	margin-top:16px;
 }
