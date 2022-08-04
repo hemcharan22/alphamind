@@ -118,7 +118,12 @@ h6{
 
 .image2{
   max-width: 550px;
-  border-radius: 30px;
+  border-radius: 5.25rem;
+}
+
+.image1{
+  max-width: 550px;
+  border-radius: 20px;
 }
 
 .top100{
@@ -181,6 +186,15 @@ h6{
   }  
   .top100{
     padding-top:0px;
+  }
+  h4{
+    font-size: 26px;
+  }
+  .p-5{
+    padding : 1rem!important
+  }
+  p{
+    font-size: 16px;
   }
 }
 
